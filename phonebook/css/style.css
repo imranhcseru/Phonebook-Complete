@@ -1,0 +1,245 @@
+
+header{
+    background-color: cornflowerblue;
+    height:120px;
+    text-align:center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+ul{    
+    list-style: none;
+    text-align: center;
+    float:right;
+    margin-right:40px;
+}
+li a{ 
+    text-decoration: none;
+    font-size: 20px;  
+    width:100%;  
+}
+li{
+    border-radius: 5px;
+    width:160px;
+    background-color: rgb(6, 245, 233);
+    line-height: 30px;
+    display: inline-block;
+    margin-right: 10px;  
+}
+li:hover{
+    width:165px;
+    line-height: 35px;
+}
+li.active{
+    background-color: 
+}
+.container{
+    padding-top: 20px;
+    background-color: ghostwhite;
+    width:100%;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.container img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+footer{
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width:100%;
+    background-color: darkslategrey;
+}
+footer a{
+    
+    display: inline-block;
+}
+
+footer img{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.table{
+    margin-bottom: 20px;
+    background-color: darkgrey;
+    
+}
+table {
+    margin-left:20px;
+    margin-right:20px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    padding-left:5px;
+    padding-right:5px;
+    width:33%;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align:center;
+}
+tr{
+    height:40px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+button{
+    font-size: 20px;
+    width:100px;
+    border-radius: 5px;
+    border-color: darkslategray;
+}
+input,textarea{
+    margin-bottom: 5px;
+    font-size: 20px;
+    width:320px;
+    height:30px;
+    padding:5px;
+    border-radius:5px;
+}
+textarea{
+    height:100px;
+}
+label {
+    margin-right: 10px;
+    font-size: 30px;
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+  }
+form{
+    position: relative;
+}
+#save,#cancel{
+    display:none;
+}
+.user_pic{
+    display: hidden;
+}
+input[type='file'] {
+    color: transparent;
+  }
+.item{
+    text-decoration: none;
+    height:400px;
+    background-color: lightblue;
+    overflow: hidden;
+}
+.item:hover{
+    border: 2px,solid,black;
+    background-color: rgb(238, 211, 156);
+}
+#add_new_contact{
+    width:30px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.wrapper img{
+    width: 10px;
+    height: 250px;
+    border-radius: 50%;
+}
+#logo{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    text-align: center;
+}
+#user_pic{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    
+}
+#user_pic_upload{
+    width:100px;
+    height:50px;
+    border-radius: 5%;
+    margin-left: 20px;
+}
+#contact_pic{
+    width:100px;
+    height:50px;
+    border-radius: 5%;
+}
+#add_new_conta{
+    width:100px;
+    height:50px;
+    border-radius: 5%;
+}
+#log_out{
+    text-decoration: none;
+    color: crimson;
+    float:left;
+    width: 100px;
+}
+#log_out:hover{
+    font-size: 22px;
+}
+.user_mini{
+    width:70px;
+    height:70px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#reg_link{
+    display: inline;
+    text-decoration: none;
+}
+#reg_link:hover{
+    color: darkslategray;
+}
+.error{
+    color:darkred;
+    display: inline-block;
+}
+#user_id{
+    all:none;
+}
+.copyright{
+    height:60px;
+    background-color: rgb(104, 117, 117);
+    margin: 0;
+}
+.sign_up_top{
+    padding-bottom: 5px;
+    text-align: center;
+    height:50px;
+    font-size: 20px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+#edit{
+    background-color: #337ab7;
+}
+#delete{
+    background-color:#B33A3A;
+}
+.login_err{
+    background-color: #B33A3A;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.submit_search{
+    width: 100px;
+    height: 40px;
+}
+.input-group-addon{
+    font-size: 30px;
+    color: rgb(104, 117, 117);
+}
